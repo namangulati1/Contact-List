@@ -35,13 +35,22 @@ The folder structure of the project is as follows:
 contact-list-app/
 ├── src/
 │ ├── components/
-│ │ ├── ContactList.js
-│ │ └── ContactForm.js
-│ ├── App.js
+│ │ ├── AddContact.js
+│ │ └── App.js
+│ │ └── EditContact.js
+│ │ └── Home.js
+│ │ └── Loader.js
+│ │ └── Navbar.js
+│ ├── redux/
+│ │ ├── contactReducer.js
+│ ├── styles/
+│ │ ├── App.css
+│ │ ├── loader.css
 │ ├── index.js
 │ └── index.css
 ├── public/
 │ └── index.html
+├── .gitignore
 ├── package.json
 ├── package-lock.json
 └── README.md
