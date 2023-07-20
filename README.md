@@ -1,71 +1,55 @@
-# Getting Started with Create React App
+# Contact List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple contact list app built with React to manage contacts. It fetches contact data from the JSONPlaceholder API, and you can perform dummy POST, PUT, and DELETE calls to manage contacts within the app.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. Fetch and show users from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users).
+2. Add a contact - This makes a dummy POST call to the API (Note: It won't add contacts to the server, but the request is valid and will update the React state).
+3. Update a contact - This makes a dummy PUT call to the API (Note: It won't update contacts on the server, but the request is valid and will update the React state).
+4. Delete a contact - This makes a dummy DELETE call to the API (Note: It won't delete contacts on the server, but the request is valid and will update the React state).
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run the app locally on your machine, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository: `git clone https://github.com/namangulati1/contact-list-app.git`
+2. Change directory: `cd contact-list-app`
+3. Install dependencies: `npm install`
+4. Run the app: `npm start`
 
-### `npm test`
+The app will be running at [http://localhost:3000](http://localhost:3000).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Dependencies
 
-### `npm run build`
+This app is built using React and utilizes the Fetch API to interact with the JSONPlaceholder API. The major dependencies used in this project are:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React: ^17.0.2
+- React-dom: ^17.0.2
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Folder Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The folder structure of the project is as follows:
 
-### `npm run eject`
+\```javascript
+contact-list-app/
+├── src/
+│ ├── components/
+│ │ ├── ContactList.js
+│ │ └── ContactForm.js
+│ ├── App.js
+│ ├── index.js
+│ └── index.css
+├── public/
+│ └── index.html
+├── package.json
+├── package-lock.json
+└── README.md
+\```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to create a pull request or open an issue.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Contact-List
