@@ -31,7 +31,7 @@ This app is built using React and utilizes the Fetch API to interact with the JS
 
 The folder structure of the project is as follows:
 
-\```javascript
+```javascript
 contact-list-app/
 ├── src/
 │ ├── components/
@@ -45,7 +45,7 @@ contact-list-app/
 ├── package.json
 ├── package-lock.json
 └── README.md
-\```
+```
 
 
 ## Contributing
